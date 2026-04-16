@@ -1,0 +1,177 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "claude",
+  "elements": [
+    {
+      "id": "step1",
+      "type": "text",
+      "x": 30, "y": 15, "width": 350, "height": 20,
+      "text": "1. hash(key) → h1 (group) + h2 (match)",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "step2",
+      "type": "text",
+      "x": 30, "y": 45, "width": 350, "height": 20,
+      "text": "2. h1 selects group",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "ctrl-label",
+      "type": "text",
+      "x": 30, "y": 85, "width": 300, "height": 18,
+      "text": "3. Compare h2 against all 8 ctrl bytes:",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "c0",
+      "type": "rectangle",
+      "x": 30, "y": 115, "width": 55, "height": 35,
+      "strokeColor": "#34d399", "backgroundColor": "#042f2e", "fillStyle": "solid", "roundness": {"type": 3}, "strokeWidth": 2
+    },
+    {
+      "id": "c0-t",
+      "type": "text",
+      "x": 45, "y": 123, "width": 25, "height": 16,
+      "text": "23", "fontSize": 14, "fontFamily": 3, "strokeColor": "#34d399"
+    },
+    {
+      "id": "c1",
+      "type": "rectangle",
+      "x": 90, "y": 115, "width": 55, "height": 35,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "c1-t",
+      "type": "text",
+      "x": 105, "y": 123, "width": 25, "height": 16,
+      "text": "89", "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "c2",
+      "type": "rectangle",
+      "x": 150, "y": 115, "width": 55, "height": 35,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "c2-t",
+      "type": "text",
+      "x": 165, "y": 123, "width": 25, "height": 16,
+      "text": "50", "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "c3",
+      "type": "rectangle",
+      "x": 210, "y": 115, "width": 55, "height": 35,
+      "strokeColor": "#475569", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "c3-t",
+      "type": "text",
+      "x": 225, "y": 123, "width": 25, "height": 16,
+      "text": "80", "fontSize": 14, "fontFamily": 3, "strokeColor": "#475569"
+    },
+    {
+      "id": "c4",
+      "type": "rectangle",
+      "x": 270, "y": 115, "width": 55, "height": 35,
+      "strokeColor": "#475569", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "c4-t",
+      "type": "text",
+      "x": 285, "y": 123, "width": 25, "height": 16,
+      "text": "80", "fontSize": 14, "fontFamily": 3, "strokeColor": "#475569"
+    },
+    {
+      "id": "c5",
+      "type": "rectangle",
+      "x": 330, "y": 115, "width": 55, "height": 35,
+      "strokeColor": "#475569", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "c5-t",
+      "type": "text",
+      "x": 345, "y": 123, "width": 25, "height": 16,
+      "text": "80", "fontSize": 14, "fontFamily": 3, "strokeColor": "#475569"
+    },
+    {
+      "id": "c6",
+      "type": "rectangle",
+      "x": 390, "y": 115, "width": 55, "height": 35,
+      "strokeColor": "#475569", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "c6-t",
+      "type": "text",
+      "x": 405, "y": 123, "width": 25, "height": 16,
+      "text": "80", "fontSize": 14, "fontFamily": 3, "strokeColor": "#475569"
+    },
+    {
+      "id": "c7",
+      "type": "rectangle",
+      "x": 450, "y": 115, "width": 55, "height": 35,
+      "strokeColor": "#475569", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "c7-t",
+      "type": "text",
+      "x": 465, "y": 123, "width": 25, "height": 16,
+      "text": "80", "fontSize": 14, "fontFamily": 3, "strokeColor": "#475569"
+    },
+    {
+      "id": "h2-search",
+      "type": "text",
+      "x": 520, "y": 122, "width": 200, "height": 16,
+      "text": "← h2 = 0x23, match slot 0",
+      "fontSize": 13, "fontFamily": 3, "strokeColor": "#34d399"
+    },
+    {
+      "id": "step4",
+      "type": "text",
+      "x": 30, "y": 170, "width": 500, "height": 20,
+      "text": "4. Full key match? → yes: update | no: not a duplicate",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "step5-label",
+      "type": "text",
+      "x": 30, "y": 210, "width": 350, "height": 18,
+      "text": "5. Key not found → find free slot (0x80):",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "insert-arrow",
+      "type": "text",
+      "x": 225, "y": 240, "width": 10, "height": 16,
+      "text": "↑", "fontSize": 16, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "insert-note",
+      "type": "text",
+      "x": 210, "y": 260, "width": 200, "height": 16,
+      "text": "first free → insert here",
+      "fontSize": 13, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "step6",
+      "type": "text",
+      "x": 30, "y": 300, "width": 400, "height": 20,
+      "text": "6. Write h2 to ctrl byte, write K+V to slot",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "full-note",
+      "type": "text",
+      "x": 30, "y": 340, "width": 500, "height": 18,
+      "text": "Group full? → probe next group (triangular probing)",
+      "fontSize": 14, "fontFamily": 1, "strokeColor": "#94a3b8"
+    }
+  ],
+  "appState": {
+    "theme": "dark",
+    "viewBackgroundColor": "#0f172a",
+    "gridSize": null
+  }
+}

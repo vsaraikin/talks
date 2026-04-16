@@ -1,0 +1,112 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "claude",
+  "elements": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 30, "y": 15, "width": 400, "height": 24,
+      "text": "Small Map: hint ≤ 8 or no hint",
+      "fontSize": 20, "fontFamily": 3, "strokeColor": "#fef3c7"
+    },
+    {
+      "id": "group-rect",
+      "type": "rectangle",
+      "x": 30, "y": 60, "width": 200, "height": 280,
+      "strokeColor": "#5eead4", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "group-title",
+      "type": "text",
+      "x": 75, "y": 70, "width": 110, "height": 22,
+      "text": "Single Group",
+      "fontSize": 18, "fontFamily": 3, "strokeColor": "#5eead4"
+    },
+    {
+      "id": "ctrl",
+      "type": "rectangle",
+      "x": 50, "y": 100, "width": 160, "height": 26,
+      "strokeColor": "#fbbf24", "backgroundColor": "#0f172a", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "ctrl-t",
+      "type": "text",
+      "x": 80, "y": 104, "width": 100, "height": 16,
+      "text": "Control word", "fontSize": 13, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "s0",
+      "type": "rectangle",
+      "x": 50, "y": 132, "width": 160, "height": 22,
+      "strokeColor": "#94a3b8", "backgroundColor": "#0f172a", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "s0-t",
+      "type": "text",
+      "x": 65, "y": 135, "width": 130, "height": 14,
+      "text": "Key     Value", "fontSize": 12, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "s1",
+      "type": "rectangle",
+      "x": 50, "y": 158, "width": 160, "height": 22,
+      "strokeColor": "#94a3b8", "backgroundColor": "#0f172a", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "s1-t",
+      "type": "text",
+      "x": 65, "y": 161, "width": 130, "height": 14,
+      "text": "Key     Value", "fontSize": 12, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "s2",
+      "type": "rectangle",
+      "x": 50, "y": 184, "width": 160, "height": 22,
+      "strokeColor": "#94a3b8", "backgroundColor": "#0f172a", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "dots",
+      "type": "text",
+      "x": 115, "y": 212, "width": 30, "height": 14,
+      "text": "...", "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "s7",
+      "type": "rectangle",
+      "x": 50, "y": 235, "width": 160, "height": 22,
+      "strokeColor": "#94a3b8", "backgroundColor": "#0f172a", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "s7-t",
+      "type": "text",
+      "x": 65, "y": 238, "width": 130, "height": 14,
+      "text": "Key     Value", "fontSize": 12, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "slots-label",
+      "type": "text",
+      "x": 80, "y": 310, "width": 80, "height": 16,
+      "text": "8 slots", "fontSize": 13, "fontFamily": 1, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "no-dir",
+      "type": "text",
+      "x": 280, "y": 70, "width": 300, "height": 80,
+      "text": "✗ No Directory\n✗ No Table wrapper\n✗ No tombstones\n✓ Just one group, inline",
+      "fontSize": 15, "fontFamily": 1, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "evolve",
+      "type": "text",
+      "x": 280, "y": 190, "width": 350, "height": 40,
+      "text": "On 9th insert →\nevolves to full Directory + Table structure",
+      "fontSize": 16, "fontFamily": 1, "strokeColor": "#fbbf24"
+    }
+  ],
+  "appState": {
+    "theme": "dark",
+    "viewBackgroundColor": "#0f172a",
+    "gridSize": null
+  }
+}

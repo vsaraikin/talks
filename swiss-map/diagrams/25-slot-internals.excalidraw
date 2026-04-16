@@ -1,0 +1,125 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "claude",
+  "elements": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 30, "y": 15, "width": 300, "height": 24,
+      "text": "Slot layout: K + V together",
+      "fontSize": 20, "fontFamily": 3, "strokeColor": "#fef3c7"
+    },
+    {
+      "id": "inline-label",
+      "type": "text",
+      "x": 30, "y": 60, "width": 300, "height": 22,
+      "text": "Value ≤ 128 bytes: inline",
+      "fontSize": 17, "fontFamily": 3, "strokeColor": "#5eead4"
+    },
+    {
+      "id": "slot-inline",
+      "type": "rectangle",
+      "x": 30, "y": 95, "width": 350, "height": 60,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "key-inline",
+      "type": "rectangle",
+      "x": 45, "y": 105, "width": 140, "height": 38,
+      "strokeColor": "#60a5fa", "backgroundColor": "#1e40af", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "key-inline-t",
+      "type": "text",
+      "x": 90, "y": 115, "width": 50, "height": 18,
+      "text": "Key", "fontSize": 16, "fontFamily": 3, "strokeColor": "#ffffff"
+    },
+    {
+      "id": "val-inline",
+      "type": "rectangle",
+      "x": 200, "y": 105, "width": 160, "height": 38,
+      "strokeColor": "#f9a8d4", "backgroundColor": "#9d174d", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "val-inline-t",
+      "type": "text",
+      "x": 250, "y": 115, "width": 60, "height": 18,
+      "text": "Value", "fontSize": 16, "fontFamily": 3, "strokeColor": "#ffffff"
+    },
+    {
+      "id": "inline-note",
+      "type": "text",
+      "x": 400, "y": 110, "width": 250, "height": 16,
+      "text": "← same cache line, great locality",
+      "fontSize": 13, "fontFamily": 1, "strokeColor": "#34d399"
+    },
+    {
+      "id": "ptr-label",
+      "type": "text",
+      "x": 30, "y": 185, "width": 350, "height": 22,
+      "text": "Value > 128 bytes: pointer in slot",
+      "fontSize": 17, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "slot-ptr",
+      "type": "rectangle",
+      "x": 30, "y": 220, "width": 350, "height": 60,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "key-ptr",
+      "type": "rectangle",
+      "x": 45, "y": 230, "width": 140, "height": 38,
+      "strokeColor": "#60a5fa", "backgroundColor": "#1e40af", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "key-ptr-t",
+      "type": "text",
+      "x": 90, "y": 240, "width": 50, "height": 18,
+      "text": "Key", "fontSize": 16, "fontFamily": 3, "strokeColor": "#ffffff"
+    },
+    {
+      "id": "val-ptr",
+      "type": "rectangle",
+      "x": 200, "y": 230, "width": 80, "height": 38,
+      "strokeColor": "#fbbf24", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "val-ptr-t",
+      "type": "text",
+      "x": 220, "y": 240, "width": 40, "height": 18,
+      "text": "*ptr", "fontSize": 14, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "ptr-arrow",
+      "type": "arrow",
+      "x": 285, "y": 249, "width": 100, "height": 0,
+      "strokeColor": "#fbbf24", "points": [[0, 0], [100, 0]]
+    },
+    {
+      "id": "heap-val",
+      "type": "rectangle",
+      "x": 400, "y": 220, "width": 200, "height": 60,
+      "strokeColor": "#f9a8d4", "backgroundColor": "#9d174d", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "heap-val-t",
+      "type": "text",
+      "x": 430, "y": 235, "width": 140, "height": 30,
+      "text": "Value (heap)\n> 128 bytes", "fontSize": 14, "fontFamily": 3, "strokeColor": "#ffffff"
+    },
+    {
+      "id": "old-compare",
+      "type": "text",
+      "x": 30, "y": 310, "width": 500, "height": 40,
+      "text": "Old map: keys[] and values[] in separate arrays\nSwiss:   [K|V] [K|V] [K|V] ... together in slot",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    }
+  ],
+  "appState": {
+    "theme": "dark",
+    "viewBackgroundColor": "#0f172a",
+    "gridSize": null
+  }
+}

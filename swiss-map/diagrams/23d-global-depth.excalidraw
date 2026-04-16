@@ -1,0 +1,179 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "claude",
+  "elements": [
+    {
+      "id": "formula",
+      "type": "text",
+      "x": 30,
+      "y": 15,
+      "width": 350,
+      "height": 24,
+      "text": "num_tables = 2^global_depth",
+      "fontSize": 20,
+      "fontFamily": 3,
+      "strokeColor": "#fef3c7"
+    },
+    {
+      "id": "depth0",
+      "type": "text",
+      "x": 30, "y": 60, "width": 280, "height": 20,
+      "text": "global_depth = 0  →  1 table",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "depth1",
+      "type": "text",
+      "x": 30, "y": 85, "width": 280, "height": 20,
+      "text": "global_depth = 1  →  2 tables",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "depth2",
+      "type": "text",
+      "x": 30, "y": 110, "width": 280, "height": 20,
+      "text": "global_depth = 2  →  4 tables",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "depth3",
+      "type": "text",
+      "x": 30, "y": 135, "width": 280, "height": 20,
+      "text": "global_depth = 3  →  8 tables",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#5eead4"
+    },
+    {
+      "id": "dir-rect",
+      "type": "rectangle",
+      "x": 30,
+      "y": 180,
+      "width": 780,
+      "height": 250,
+      "strokeColor": "#94a3b8",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "roundness": {"type": 3}
+    },
+    {
+      "id": "dir-title",
+      "type": "text",
+      "x": 50, "y": 190, "width": 100, "height": 24,
+      "text": "Directory", "fontSize": 20, "fontFamily": 3, "strokeColor": "#ffffff"
+    },
+    {
+      "id": "dir-gd",
+      "type": "text",
+      "x": 580, "y": 192, "width": 200, "height": 22,
+      "text": "global_depth = 3", "fontSize": 18, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "t0",
+      "type": "rectangle",
+      "x": 55, "y": 230, "width": 160, "height": 80,
+      "strokeColor": "#a78bfa", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "t0-t",
+      "type": "text",
+      "x": 100, "y": 260, "width": 70, "height": 20,
+      "text": "Table 0", "fontSize": 16, "fontFamily": 3, "strokeColor": "#a78bfa"
+    },
+    {
+      "id": "t1",
+      "type": "rectangle",
+      "x": 235, "y": 230, "width": 160, "height": 80,
+      "strokeColor": "#a78bfa", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "t1-t",
+      "type": "text",
+      "x": 280, "y": 260, "width": 70, "height": 20,
+      "text": "Table 1", "fontSize": 16, "fontFamily": 3, "strokeColor": "#a78bfa"
+    },
+    {
+      "id": "t2",
+      "type": "rectangle",
+      "x": 415, "y": 230, "width": 160, "height": 80,
+      "strokeColor": "#a78bfa", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "t2-t",
+      "type": "text",
+      "x": 460, "y": 260, "width": 70, "height": 20,
+      "text": "Table 2", "fontSize": 16, "fontFamily": 3, "strokeColor": "#a78bfa"
+    },
+    {
+      "id": "t3",
+      "type": "rectangle",
+      "x": 595, "y": 230, "width": 160, "height": 80,
+      "strokeColor": "#a78bfa", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "t3-t",
+      "type": "text",
+      "x": 640, "y": 260, "width": 70, "height": 20,
+      "text": "Table 3", "fontSize": 16, "fontFamily": 3, "strokeColor": "#a78bfa"
+    },
+    {
+      "id": "t4",
+      "type": "rectangle",
+      "x": 55, "y": 330, "width": 160, "height": 80,
+      "strokeColor": "#a78bfa", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "t4-t",
+      "type": "text",
+      "x": 100, "y": 360, "width": 70, "height": 20,
+      "text": "Table 4", "fontSize": 16, "fontFamily": 3, "strokeColor": "#a78bfa"
+    },
+    {
+      "id": "t5",
+      "type": "rectangle",
+      "x": 235, "y": 330, "width": 160, "height": 80,
+      "strokeColor": "#a78bfa", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "t5-t",
+      "type": "text",
+      "x": 280, "y": 360, "width": 70, "height": 20,
+      "text": "Table 5", "fontSize": 16, "fontFamily": 3, "strokeColor": "#a78bfa"
+    },
+    {
+      "id": "t6",
+      "type": "rectangle",
+      "x": 415, "y": 330, "width": 160, "height": 80,
+      "strokeColor": "#a78bfa", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "t6-t",
+      "type": "text",
+      "x": 460, "y": 360, "width": 70, "height": 20,
+      "text": "Table 6", "fontSize": 16, "fontFamily": 3, "strokeColor": "#a78bfa"
+    },
+    {
+      "id": "t7",
+      "type": "rectangle",
+      "x": 595, "y": 330, "width": 160, "height": 80,
+      "strokeColor": "#a78bfa", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "t7-t",
+      "type": "text",
+      "x": 640, "y": 360, "width": 70, "height": 20,
+      "text": "Table 7", "fontSize": 16, "fontFamily": 3, "strokeColor": "#a78bfa"
+    },
+    {
+      "id": "note",
+      "type": "text",
+      "x": 400, "y": 60, "width": 400, "height": 20,
+      "text": "Each table grows independently",
+      "fontSize": 16, "fontFamily": 1, "strokeColor": "#94a3b8"
+    }
+  ],
+  "appState": {
+    "theme": "dark",
+    "viewBackgroundColor": "#0f172a",
+    "gridSize": null
+  }
+}

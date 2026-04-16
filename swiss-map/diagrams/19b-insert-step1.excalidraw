@@ -1,0 +1,64 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "claude",
+  "elements": [
+    {
+      "id": "step",
+      "type": "text",
+      "x": 30, "y": 15, "width": 400, "height": 24,
+      "text": "Step 1: hash(key) → h1 + h2",
+      "fontSize": 20, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "hash-box",
+      "type": "rectangle",
+      "x": 30, "y": 70, "width": 500, "height": 50,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "hash-t",
+      "type": "text",
+      "x": 50, "y": 82, "width": 460, "height": 20,
+      "text": "hash64(\"mykey\") = 0x3A7F...B423",
+      "fontSize": 16, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "arrow-down",
+      "type": "text",
+      "x": 250, "y": 130, "width": 20, "height": 20,
+      "text": "↓", "fontSize": 18, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "h1-box",
+      "type": "rectangle",
+      "x": 30, "y": 165, "width": 240, "height": 50,
+      "strokeColor": "#a78bfa", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "h1-t",
+      "type": "text",
+      "x": 50, "y": 172, "width": 200, "height": 30,
+      "text": "h1 (upper 57 bits)\n→ selects group",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#a78bfa"
+    },
+    {
+      "id": "h2-box",
+      "type": "rectangle",
+      "x": 290, "y": 165, "width": 240, "height": 50,
+      "strokeColor": "#34d399", "backgroundColor": "#042f2e", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "h2-t",
+      "type": "text",
+      "x": 310, "y": 172, "width": 200, "height": 30,
+      "text": "h2 (lower 7 bits)\n→ fast matching",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#34d399"
+    }
+  ],
+  "appState": {
+    "theme": "dark",
+    "viewBackgroundColor": "#0f172a",
+    "gridSize": null
+  }
+}

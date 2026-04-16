@@ -1,0 +1,124 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "claude",
+  "elements": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 30, "y": 10, "width": 500, "height": 24,
+      "text": "How many buckets? B controls everything",
+      "fontSize": 20, "fontFamily": 3, "strokeColor": "#fef3c7"
+    },
+    {
+      "id": "formula",
+      "type": "text",
+      "x": 30, "y": 55, "width": 400, "height": 22,
+      "text": "numBuckets = 2^B     loadFactor = 6.5/bucket",
+      "fontSize": 16, "fontFamily": 3, "strokeColor": "#5eead4"
+    },
+    {
+      "id": "example-title",
+      "type": "text",
+      "x": 30, "y": 100, "width": 350, "height": 18,
+      "text": "make(map[string]string, 10):",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "step1",
+      "type": "text",
+      "x": 50, "y": 130, "width": 350, "height": 18,
+      "text": "10 / 6.5 = 1.54 buckets minimum",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "step2",
+      "type": "text",
+      "x": 50, "y": 155, "width": 350, "height": 18,
+      "text": "nearest power of 2 ≥ 2  →  B = 1",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "step3",
+      "type": "text",
+      "x": 50, "y": 180, "width": 350, "height": 18,
+      "text": "2^1 = 2 buckets × 8 slots = 16 capacity",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#34d399"
+    },
+    {
+      "id": "table-title",
+      "type": "text",
+      "x": 480, "y": 55, "width": 200, "height": 18,
+      "text": "B grows with data:",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#a78bfa"
+    },
+    {
+      "id": "row-b0",
+      "type": "text",
+      "x": 480, "y": 85, "width": 280, "height": 18,
+      "text": "B=0   1 bucket      8 slots",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "row-b1",
+      "type": "text",
+      "x": 480, "y": 110, "width": 280, "height": 18,
+      "text": "B=1   2 buckets    16 slots",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "row-b2",
+      "type": "text",
+      "x": 480, "y": 135, "width": 280, "height": 18,
+      "text": "B=2   4 buckets    32 slots",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "row-b3",
+      "type": "text",
+      "x": 480, "y": 160, "width": 280, "height": 18,
+      "text": "B=3   8 buckets    64 slots",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "row-dots",
+      "type": "text",
+      "x": 480, "y": 185, "width": 100, "height": 18,
+      "text": "...",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "growth-title",
+      "type": "text",
+      "x": 30, "y": 230, "width": 200, "height": 18,
+      "text": "When to grow?",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#f87171"
+    },
+    {
+      "id": "growth-rule",
+      "type": "text",
+      "x": 50, "y": 260, "width": 500, "height": 18,
+      "text": "avg elements per bucket > 6.5  →  B++  →  2x buckets  →  evacuation",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "why-pow2",
+      "type": "text",
+      "x": 30, "y": 305, "width": 500, "height": 18,
+      "text": "Why power of 2?",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#a78bfa"
+    },
+    {
+      "id": "pow2-explain",
+      "type": "text",
+      "x": 50, "y": 335, "width": 600, "height": 18,
+      "text": "hash % numBuckets  →  hash & (numBuckets - 1)    // 1 AND vs expensive division",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    }
+  ],
+  "appState": {
+    "theme": "dark",
+    "viewBackgroundColor": "#0f172a",
+    "gridSize": null
+  }
+}

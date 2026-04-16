@@ -1,0 +1,161 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "claude",
+  "elements": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 30, "y": 15, "width": 400, "height": 24,
+      "text": "Iteration during mutation",
+      "fontSize": 20, "fontFamily": 3, "strokeColor": "#fef3c7"
+    },
+    {
+      "id": "old-label",
+      "type": "text",
+      "x": 30, "y": 60, "width": 200, "height": 22,
+      "text": "Old Table (visit order)",
+      "fontSize": 16, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "old-tbl",
+      "type": "rectangle",
+      "x": 30, "y": 90, "width": 300, "height": 120,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "old-g0",
+      "type": "rectangle",
+      "x": 50, "y": 110, "width": 80, "height": 80,
+      "strokeColor": "#5eead4", "backgroundColor": "#0f172a", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "old-g0-t",
+      "type": "text",
+      "x": 58, "y": 115, "width": 60, "height": 14,
+      "text": "Group 0", "fontSize": 11, "fontFamily": 3, "strokeColor": "#5eead4"
+    },
+    {
+      "id": "old-g0-a",
+      "type": "text",
+      "x": 65, "y": 135, "width": 50, "height": 16,
+      "text": "A → 1", "fontSize": 12, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "old-g0-b",
+      "type": "text",
+      "x": 65, "y": 153, "width": 50, "height": 16,
+      "text": "B → 2", "fontSize": 12, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "old-g0-c",
+      "type": "text",
+      "x": 65, "y": 171, "width": 50, "height": 16,
+      "text": "C → 3", "fontSize": 12, "fontFamily": 3, "strokeColor": "#f87171"
+    },
+    {
+      "id": "old-g1",
+      "type": "rectangle",
+      "x": 170, "y": 110, "width": 80, "height": 80,
+      "strokeColor": "#5eead4", "backgroundColor": "#0f172a", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "old-g1-t",
+      "type": "text",
+      "x": 178, "y": 115, "width": 60, "height": 14,
+      "text": "Group 1", "fontSize": 11, "fontFamily": 3, "strokeColor": "#5eead4"
+    },
+    {
+      "id": "old-g1-d",
+      "type": "text",
+      "x": 185, "y": 135, "width": 50, "height": 16,
+      "text": "D → 4", "fontSize": 12, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "cursor",
+      "type": "text",
+      "x": 275, "y": 170, "width": 40, "height": 16,
+      "text": "← iter", "fontSize": 11, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "arrow-down",
+      "type": "text",
+      "x": 180, "y": 225, "width": 200, "height": 20,
+      "text": "↓  delete(C), insert(E)",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "new-label",
+      "type": "text",
+      "x": 30, "y": 260, "width": 250, "height": 22,
+      "text": "New Table (current values)",
+      "fontSize": 16, "fontFamily": 3, "strokeColor": "#34d399"
+    },
+    {
+      "id": "new-tbl",
+      "type": "rectangle",
+      "x": 30, "y": 290, "width": 300, "height": 120,
+      "strokeColor": "#34d399", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "new-g0",
+      "type": "rectangle",
+      "x": 50, "y": 310, "width": 80, "height": 80,
+      "strokeColor": "#5eead4", "backgroundColor": "#0f172a", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "new-g0-t",
+      "type": "text",
+      "x": 58, "y": 315, "width": 60, "height": 14,
+      "text": "Group 0", "fontSize": 11, "fontFamily": 3, "strokeColor": "#5eead4"
+    },
+    {
+      "id": "new-g0-a",
+      "type": "text",
+      "x": 65, "y": 335, "width": 50, "height": 16,
+      "text": "A → 1", "fontSize": 12, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "new-g0-b",
+      "type": "text",
+      "x": 65, "y": 353, "width": 50, "height": 16,
+      "text": "B → 2", "fontSize": 12, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "new-g1",
+      "type": "rectangle",
+      "x": 170, "y": 310, "width": 80, "height": 80,
+      "strokeColor": "#5eead4", "backgroundColor": "#0f172a", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "new-g1-t",
+      "type": "text",
+      "x": 178, "y": 315, "width": 60, "height": 14,
+      "text": "Group 1", "fontSize": 11, "fontFamily": 3, "strokeColor": "#5eead4"
+    },
+    {
+      "id": "new-g1-d",
+      "type": "text",
+      "x": 185, "y": 335, "width": 50, "height": 16,
+      "text": "D → 4", "fontSize": 12, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    },
+    {
+      "id": "new-g1-e",
+      "type": "text",
+      "x": 185, "y": 353, "width": 50, "height": 16,
+      "text": "E → 5", "fontSize": 12, "fontFamily": 3, "strokeColor": "#34d399"
+    },
+    {
+      "id": "explain",
+      "type": "text",
+      "x": 380, "y": 100, "width": 350, "height": 80,
+      "text": "Old table → determines iteration order\nNew table → reads current values\n\nC deleted from new, E added to new\nIterator continues from old table position",
+      "fontSize": 13, "fontFamily": 1, "strokeColor": "#94a3b8"
+    }
+  ],
+  "appState": {
+    "theme": "dark",
+    "viewBackgroundColor": "#0f172a",
+    "gridSize": null
+  }
+}

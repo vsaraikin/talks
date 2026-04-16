@@ -1,0 +1,162 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "claude",
+  "elements": [
+    {
+      "id": "step",
+      "type": "text",
+      "x": 30, "y": 15, "width": 500, "height": 24,
+      "text": "Step 4: find free slot → insert",
+      "fontSize": 20, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "no-match",
+      "type": "text",
+      "x": 30, "y": 55, "width": 400, "height": 18,
+      "text": "Key not found → look for empty slot (0x80)",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "c0",
+      "type": "rectangle",
+      "x": 30, "y": 95, "width": 65, "height": 45,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "c0-t",
+      "type": "text",
+      "x": 48, "y": 108, "width": 30, "height": 18,
+      "text": "23", "fontSize": 16, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "c1",
+      "type": "rectangle",
+      "x": 100, "y": 95, "width": 65, "height": 45,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "c1-t",
+      "type": "text",
+      "x": 118, "y": 108, "width": 30, "height": 18,
+      "text": "89", "fontSize": 16, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "c2",
+      "type": "rectangle",
+      "x": 170, "y": 95, "width": 65, "height": 45,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "c2-t",
+      "type": "text",
+      "x": 188, "y": 108, "width": 30, "height": 18,
+      "text": "50", "fontSize": 16, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "c3",
+      "type": "rectangle",
+      "x": 240, "y": 95, "width": 65, "height": 45,
+      "strokeColor": "#fbbf24", "backgroundColor": "#422006", "fillStyle": "solid", "roundness": {"type": 3}, "strokeWidth": 3
+    },
+    {
+      "id": "c3-t",
+      "type": "text",
+      "x": 253, "y": 102, "width": 40, "height": 30,
+      "text": "80\n→ h2", "fontSize": 13, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "c4-7-dots",
+      "type": "text",
+      "x": 320, "y": 108, "width": 100, "height": 18,
+      "text": "80  80  80  80",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#475569"
+    },
+    {
+      "id": "insert-arrow",
+      "type": "text",
+      "x": 260, "y": 148, "width": 10, "height": 16,
+      "text": "↑", "fontSize": 16, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "insert-label",
+      "type": "text",
+      "x": 220, "y": 170, "width": 250, "height": 18,
+      "text": "first free → write h2 + K|V",
+      "fontSize": 15, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "after-label",
+      "type": "text",
+      "x": 30, "y": 220, "width": 100, "height": 16,
+      "text": "After insert:", "fontSize": 13, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "a0",
+      "type": "rectangle",
+      "x": 30, "y": 245, "width": 65, "height": 45,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "a0-t",
+      "type": "text",
+      "x": 48, "y": 258, "width": 30, "height": 18,
+      "text": "23", "fontSize": 16, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "a1",
+      "type": "rectangle",
+      "x": 100, "y": 245, "width": 65, "height": 45,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "a1-t",
+      "type": "text",
+      "x": 118, "y": 258, "width": 30, "height": 18,
+      "text": "89", "fontSize": 16, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "a2",
+      "type": "rectangle",
+      "x": 170, "y": 245, "width": 65, "height": 45,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "a2-t",
+      "type": "text",
+      "x": 188, "y": 258, "width": 30, "height": 18,
+      "text": "50", "fontSize": 16, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "a3",
+      "type": "rectangle",
+      "x": 240, "y": 245, "width": 65, "height": 45,
+      "strokeColor": "#34d399", "backgroundColor": "#042f2e", "fillStyle": "solid", "roundness": {"type": 3}, "strokeWidth": 2
+    },
+    {
+      "id": "a3-t",
+      "type": "text",
+      "x": 255, "y": 258, "width": 35, "height": 18,
+      "text": "NEW", "fontSize": 13, "fontFamily": 3, "strokeColor": "#34d399"
+    },
+    {
+      "id": "a4-7-dots",
+      "type": "text",
+      "x": 320, "y": 258, "width": 100, "height": 18,
+      "text": "80  80  80  80",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#475569"
+    },
+    {
+      "id": "full-note",
+      "type": "text",
+      "x": 30, "y": 310, "width": 450, "height": 18,
+      "text": "Group full? → probe next group (triangular probing)",
+      "fontSize": 14, "fontFamily": 1, "strokeColor": "#94a3b8"
+    }
+  ],
+  "appState": {
+    "theme": "dark",
+    "viewBackgroundColor": "#0f172a",
+    "gridSize": null
+  }
+}

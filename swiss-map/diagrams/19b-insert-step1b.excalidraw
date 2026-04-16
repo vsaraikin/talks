@@ -1,0 +1,99 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "claude",
+  "elements": [
+    {
+      "id": "step",
+      "type": "text",
+      "x": 30, "y": 15, "width": 500, "height": 24,
+      "text": "Step 2: h1 selects table from directory",
+      "fontSize": 20, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "formula",
+      "type": "text",
+      "x": 30, "y": 60, "width": 450, "height": 20,
+      "text": "table_index = hash >> (64 - global_depth)",
+      "fontSize": 16, "fontFamily": 3, "strokeColor": "#5eead4"
+    },
+    {
+      "id": "example",
+      "type": "text",
+      "x": 30, "y": 95, "width": 450, "height": 18,
+      "text": "global_depth = 2  →  use top 2 bits of hash",
+      "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "dir-rect",
+      "type": "rectangle",
+      "x": 30, "y": 135, "width": 160, "height": 210,
+      "strokeColor": "#94a3b8", "backgroundColor": "#1e293b", "fillStyle": "solid", "roundness": {"type": 3}
+    },
+    {
+      "id": "dir-title",
+      "type": "text",
+      "x": 60, "y": 143, "width": 100, "height": 20,
+      "text": "Directory", "fontSize": 16, "fontFamily": 3, "strokeColor": "#ffffff"
+    },
+    {
+      "id": "e0",
+      "type": "text",
+      "x": 50, "y": 175, "width": 120, "height": 18,
+      "text": "00 → Table 0", "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "e1",
+      "type": "text",
+      "x": 50, "y": 205, "width": 120, "height": 18,
+      "text": "01 → Table 1", "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "e2",
+      "type": "text",
+      "x": 50, "y": 235, "width": 120, "height": 18,
+      "text": "10 → Table 2", "fontSize": 14, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "e3",
+      "type": "text",
+      "x": 50, "y": 265, "width": 120, "height": 18,
+      "text": "11 → Table 3", "fontSize": 14, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "arrow",
+      "type": "arrow",
+      "x": 195, "y": 244, "width": 50, "height": 0,
+      "strokeColor": "#fbbf24", "strokeWidth": 2, "points": [[0, 0], [50, 0]]
+    },
+    {
+      "id": "tbl2",
+      "type": "rectangle",
+      "x": 250, "y": 215, "width": 300, "height": 70,
+      "strokeColor": "#fbbf24", "backgroundColor": "#422006", "fillStyle": "solid", "roundness": {"type": 3}, "strokeWidth": 2
+    },
+    {
+      "id": "tbl2-title",
+      "type": "text",
+      "x": 270, "y": 225, "width": 200, "height": 20,
+      "text": "Table 2", "fontSize": 18, "fontFamily": 3, "strokeColor": "#fbbf24"
+    },
+    {
+      "id": "tbl2-groups",
+      "type": "text",
+      "x": 270, "y": 255, "width": 260, "height": 16,
+      "text": "Group 0  Group 1  ...  Group N", "fontSize": 13, "fontFamily": 3, "strokeColor": "#94a3b8"
+    },
+    {
+      "id": "hash-example",
+      "type": "text",
+      "x": 250, "y": 145, "width": 400, "height": 40,
+      "text": "hash = 0x 10 xx xx xx xx xx xx xx\n           ^^  top 2 bits = 10 = index 2", "fontSize": 13, "fontFamily": 3, "strokeColor": "#e2e8f0"
+    }
+  ],
+  "appState": {
+    "theme": "dark",
+    "viewBackgroundColor": "#0f172a",
+    "gridSize": null
+  }
+}

@@ -1,0 +1,7 @@
+*.txt
+*.py
+.DS_Store
+node_modules/
+swiss-map/diagrams/node_modules/
+swiss-map/node_modules/
+swiss-map-v2/
